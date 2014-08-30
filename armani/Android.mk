@@ -80,13 +80,4 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-# Workaround
-include $(CLEAR_VARS)
-LOCAL_MODULE := libqdutils
-LOCAL_SRC_FILES := proprietary/lib/$(LOCAL_MODULE).so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
 endif
