@@ -212,7 +212,24 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/xiaomi/armani/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so
+
+# IMS
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/armani/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/xiaomi/armani/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/xiaomi/armani/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/xiaomi/armani/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
+    vendor/xiaomi/armani/proprietary/framework/imslibrary.jar:system/framework/imslibrary.jar \
+    vendor/xiaomi/armani/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so
 
 # Qualcomm
 PRODUCT_COPY_FILES += \
