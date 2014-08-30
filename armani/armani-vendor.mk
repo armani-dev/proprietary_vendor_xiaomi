@@ -38,6 +38,7 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
+    imslibrary \
     qcnvitems \
     qcrilhook
 

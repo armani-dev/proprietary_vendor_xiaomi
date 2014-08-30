@@ -47,10 +47,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so
 
+# FM radio
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/armani/proprietary/bin/fmconfig:system/bin/fmconfig \
+    vendor/xiaomi/armani/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
+
 # Bluetooth
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/armani/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init
+
+# GPS
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/armani/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml
 
 # Wifi
 PRODUCT_COPY_FILES += \
@@ -117,11 +126,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
-
-# FM radio
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/xiaomi/armani/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
 
 # Graphics
 PRODUCT_COPY_FILES += \
@@ -218,7 +222,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/xiaomi/armani/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/xiaomi/armani/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
-    vendor/xiaomi/armani/proprietary/framework/imslibrary.jar:system/framework/imslibrary.jar \
     vendor/xiaomi/armani/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
