@@ -75,24 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_omi8a02a_snapshot_hd.so:system/vendor/lib/libchromatix_s5k3h2yx_omi8a02a_snapshot_hd.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_omi8a02a_video_hd.so:system/vendor/lib/libchromatix_s5k3h2yx_omi8a02a_video_hd.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_omi8a02a_zsl.so:system/vendor/lib/libchromatix_s5k3h2yx_omi8a02a_zsl.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_owt8a01a_common.so:system/vendor/lib/libchromatix_s5k3h2yx_owt8a01a_common.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_owt8a01a_default_video.so:system/vendor/lib/libchromatix_s5k3h2yx_owt8a01a_default_video.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_owt8a01a_liveshot.so:system/vendor/lib/libchromatix_s5k3h2yx_owt8a01a_liveshot.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_owt8a01a_preview.so:system/vendor/lib/libchromatix_s5k3h2yx_owt8a01a_preview.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_owt8a01a_preview_hd.so:system/vendor/lib/libchromatix_s5k3h2yx_owt8a01a_preview_hd.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_owt8a01a_snapshot.so:system/vendor/lib/libchromatix_s5k3h2yx_owt8a01a_snapshot.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_owt8a01a_snapshot_hd.so:system/vendor/lib/libchromatix_s5k3h2yx_owt8a01a_snapshot_hd.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_owt8a01a_video_hd.so:system/vendor/lib/libchromatix_s5k3h2yx_owt8a01a_video_hd.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_owt8a01a_zsl.so:system/vendor/lib/libchromatix_s5k3h2yx_owt8a01a_zsl.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_q8s02m_common.so:system/vendor/lib/libchromatix_s5k3h2yx_q8s02m_common.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_q8s02m_default_video.so:system/vendor/lib/libchromatix_s5k3h2yx_q8s02m_default_video.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_q8s02m_liveshot.so:system/vendor/lib/libchromatix_s5k3h2yx_q8s02m_liveshot.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_q8s02m_preview.so:system/vendor/lib/libchromatix_s5k3h2yx_q8s02m_preview.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_q8s02m_preview_hd.so:system/vendor/lib/libchromatix_s5k3h2yx_q8s02m_preview_hd.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_q8s02m_snapshot.so:system/vendor/lib/libchromatix_s5k3h2yx_q8s02m_snapshot.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_q8s02m_snapshot_hd.so:system/vendor/lib/libchromatix_s5k3h2yx_q8s02m_snapshot_hd.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_q8s02m_video_hd.so:system/vendor/lib/libchromatix_s5k3h2yx_q8s02m_video_hd.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_s5k3h2yx_q8s02m_zsl.so:system/vendor/lib/libchromatix_s5k3h2yx_q8s02m_zsl.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
