@@ -59,6 +59,7 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/armani/proprietary/app/com.qualcomm.location.apk:system/app/com.qualcomm.location.apk \
     vendor/xiaomi/armani/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml
 
 # Wifi
