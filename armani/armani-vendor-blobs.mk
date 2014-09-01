@@ -275,6 +275,8 @@ PRODUCT_COPY_FILES += \
 # Radio
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/xiaomi/armani/proprietary/bin/port-bridge:system/bin/port-bridge \
+    vendor/xiaomi/armani/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/xiaomi/armani/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/xiaomi/armani/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/xiaomi/armani/proprietary/bin/rild:system/bin/rild \
