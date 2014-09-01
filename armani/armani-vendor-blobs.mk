@@ -312,11 +312,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
 
-# USB HUB
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/bin/usbhub:system/bin/usbhub \
-    vendor/xiaomi/armani/proprietary/bin/usbhub_init:system/bin/usbhub_init
-
 # Fastcharge
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/hvdcp:system/bin/hvdcp
