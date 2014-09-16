@@ -267,14 +267,11 @@ PRODUCT_COPY_FILES += \
 # Radio
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/xiaomi/armani/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/xiaomi/armani/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/xiaomi/armani/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/xiaomi/armani/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/xiaomi/armani/proprietary/bin/rild:system/bin/rild \
     vendor/xiaomi/armani/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/xiaomi/armani/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/xiaomi/armani/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/armani/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
