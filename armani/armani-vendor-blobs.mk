@@ -323,7 +323,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/etc/firmware/wcnss.b07:system/etc/firmware/wcnss.b07 \
     vendor/xiaomi/armani/proprietary/etc/firmware/wcnss.b08:system/etc/firmware/wcnss.b08 \
     vendor/xiaomi/armani/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
-    vendor/xiaomi/armani/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt
+    vendor/xiaomi/armani/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+    vendor/xiaomi/armani/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so
     
 # Workaround
 PRODUCT_COPY_FILES += \
