@@ -328,4 +328,6 @@ PRODUCT_COPY_FILES += \
     
 # Workaround
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/workaround/lib/liboverlay.so:system/lib/liboverlay.so
+    vendor/xiaomi/armani/proprietary/workaround/lib/hw/hwcomposer.msm8226.so:system/lib/hw/hwcomposer.msm8226.so \
+    vendor/xiaomi/armani/proprietary/workaround/lib/liboverlay.so:system/lib/liboverlay.so \
+    vendor/xiaomi/armani/proprietary/workaround/lib/libqdutils.so:system/lib/libqdutils.so
