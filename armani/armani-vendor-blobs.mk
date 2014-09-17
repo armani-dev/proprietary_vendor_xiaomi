@@ -72,6 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libmmcamera_ofilm_owt8a01a_eeprom.so:system/vendor/lib/libmmcamera_ofilm_owt8a01a_eeprom.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libmmcamera_ov9760_q1v05a.so:system/vendor/lib/libmmcamera_ov9760_q1v05a.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libmmcamera_s5k3h2yx_omi8a02a.so:system/vendor/lib/libmmcamera_s5k3h2yx_omi8a02a.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libmmcamera_s5k3h2yx_owt8a01a.so:system/vendor/lib/libmmcamera_s5k3h2yx_owt8a01a.so \
