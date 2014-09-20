@@ -230,13 +230,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so
 
-# Listen
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so
-
 # Media
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
