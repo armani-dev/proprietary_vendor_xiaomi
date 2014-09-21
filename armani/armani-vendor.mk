@@ -20,10 +20,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.services.location \
     TimeService
 
-# Prebuilt jars
-PRODUCT_PACKAGES += \
-    imslibrary
-
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \
     libqminvapi \
