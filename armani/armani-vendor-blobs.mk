@@ -44,7 +44,8 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/xiaomi/armani/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init
+    vendor/xiaomi/armani/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
 
 # Camera
 PRODUCT_COPY_FILES += \
