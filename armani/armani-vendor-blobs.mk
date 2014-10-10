@@ -249,6 +249,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko	\
     vendor/xiaomi/armani/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko
 
+# Perf
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/armani/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so
+
 # Postprocessing
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
@@ -259,12 +264,10 @@ PRODUCT_COPY_FILES += \
 # Qualcomm
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/xiaomi/armani/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/xiaomi/armani/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
@@ -273,7 +276,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so 
+    vendor/xiaomi/armani/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so
 
 # Radio
 PRODUCT_COPY_FILES += \
