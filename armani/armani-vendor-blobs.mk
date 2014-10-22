@@ -232,6 +232,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
     vendor/xiaomi/armani/proprietary/lib/modules/evbug.ko:system/lib/modules/evbug.ko \
     vendor/xiaomi/armani/proprietary/lib/modules/gpio_axis.ko:system/lib/modules/gpio_axis.ko \
+    vendor/xiaomi/armani/proprietary/lib/modules/gpio_event.ko:system/lib/modules/gpio_event.ko \
+    vendor/xiaomi/armani/proprietary/lib/modules/gpio_input.ko:system/lib/modules/gpio_input.ko \
     vendor/xiaomi/armani/proprietary/lib/modules/gpio_matrix.ko:system/lib/modules/gpio_matrix.ko \
     vendor/xiaomi/armani/proprietary/lib/modules/gpio_output.ko:system/lib/modules/gpio_output.ko \
     vendor/xiaomi/armani/proprietary/lib/modules/gspca_main.ko:system/lib/modules/gspca_main.ko	\
