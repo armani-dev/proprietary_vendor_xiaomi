@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
     vendor/xiaomi/armani/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/armani/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/xiaomi/armani/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/xiaomi/armani/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_ov9724_common.so:system/vendor/lib/libchromatix_ov9724_common.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libchromatix_ov9724_default_video.so:system/vendor/lib/libchromatix_ov9724_default_video.so \
