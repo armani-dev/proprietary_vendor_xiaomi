@@ -28,13 +28,14 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
-    vendor/xiaomi/armani/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
-    vendor/xiaomi/armani/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
-    vendor/xiaomi/armani/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
-    vendor/xiaomi/armani/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
-    vendor/xiaomi/armani/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-    vendor/xiaomi/armani/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/xiaomi/armani/proprietary/etc/ACDB/Bluetooth_cal.acdb:system/etc/ACDB/Bluetooth_cal.acdb \
+    vendor/xiaomi/armani/proprietary/etc/ACDB/General_cal.acdb:system/etc/ACDB/General_cal.acdb \
+    vendor/xiaomi/armani/proprietary/etc/ACDB/Global_cal.acdb:system/etc/ACDB/Global_cal.acdb \
+    vendor/xiaomi/armani/proprietary/etc/ACDB/Handset_cal.acdb:system/etc/ACDB/Handset_cal.acdb \
+    vendor/xiaomi/armani/proprietary/etc/ACDB/Hdmi_cal.acdb:system/etc/ACDB/Hdmi_cal.acdb \
+    vendor/xiaomi/armani/proprietary/etc/ACDB/Headset_cal.acdb:system/etc/ACDB/Headset_cal.acdb \
+    vendor/xiaomi/armani/proprietary/etc/ACDB/Speaker_cal.acdb:system/etc/ACDB/Speaker_cal.acdb \
+    vendor/xiaomi/armani/proprietary/etc/ACDB/workspaceFile.qwsp:system/etc/ACDB/workspaceFile.qwsp \
     vendor/xiaomi/armani/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
