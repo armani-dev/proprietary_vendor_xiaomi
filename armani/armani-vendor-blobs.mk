@@ -165,10 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so
 
-# Fastcharge
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/bin/hvdcp:system/bin/hvdcp
-
 # FM radio
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/fmconfig:system/bin/fmconfig \
