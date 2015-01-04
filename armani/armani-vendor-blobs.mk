@@ -201,33 +201,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so
 
-# Modules
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko	\
-    vendor/xiaomi/armani/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko	\
-    vendor/xiaomi/armani/proprietary/lib/modules/coresight-event.ko:system/lib/modules/coresight-event.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/evbug.ko:system/lib/modules/evbug.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/gpio_axis.ko:system/lib/modules/gpio_axis.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/gpio_event.ko:system/lib/modules/gpio_event.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/gpio_input.ko:system/lib/modules/gpio_input.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/gpio_matrix.ko:system/lib/modules/gpio_matrix.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/gpio_output.ko:system/lib/modules/gpio_output.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/gspca_main.ko:system/lib/modules/gspca_main.ko	\
-    vendor/xiaomi/armani/proprietary/lib/modules/mcdrvmodule.ko:system/lib/modules/mcdrvmodule.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/mckernelapi.ko:system/lib/modules/mckernelapi.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/mmc_block_test.ko:system/lib/modules/mmc_block_test.ko	\
-    vendor/xiaomi/armani/proprietary/lib/modules/mmc_test.ko:system/lib/modules/mmc_test.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/msm-buspm-dev.ko:system/lib/modules/msm-buspm-dev.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/oprofile.ko:system/lib/modules/oprofile.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/qcedev.ko:system/lib/modules/qcedev.ko	\
-    vendor/xiaomi/armani/proprietary/lib/modules/qcrypto.ko:system/lib/modules/qcrypto.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/radio-iris-transport.ko:system/lib/modules/radio-iris-transport.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/reset_modem.ko:system/lib/modules/reset_modem.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko	\
-    vendor/xiaomi/armani/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko	\
-    vendor/xiaomi/armani/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko
-
 # Perf
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/mpdecision:system/bin/mpdecision \
