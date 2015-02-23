@@ -212,13 +212,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/xiaomi/armani/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so
 
-# Postprocessing
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so
-
 # Qualcomm
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/irsc_util:system/bin/irsc_util \
