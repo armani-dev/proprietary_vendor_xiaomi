@@ -154,7 +154,6 @@ PRODUCT_COPY_FILES += \
 
 # FM radio
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/xiaomi/armani/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
 
 # GPS
