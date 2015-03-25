@@ -261,13 +261,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/armani/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/xiaomi/armani/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/xiaomi/armani/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+    vendor/xiaomi/armani/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
 
 # Sensors
