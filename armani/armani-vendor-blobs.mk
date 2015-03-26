@@ -152,10 +152,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so
 
-# FM radio
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
-
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
