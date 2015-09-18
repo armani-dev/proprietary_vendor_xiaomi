@@ -209,7 +209,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libOmxVdecHevc.so:system/vendor/lib/libOmxVdecHevc.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so
 
-# Perf
+# Perf (V6.7.1.0)
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/xiaomi/armani/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so
@@ -258,7 +258,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so
 
-# Thermal
+# Thermal (V6.7.1.0)
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/xiaomi/armani/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
