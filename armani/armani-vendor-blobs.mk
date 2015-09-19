@@ -135,10 +135,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so
 
-# DRM
+# DRM (TheMuppets Motorola msm8226-common)
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/xiaomi/armani/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
