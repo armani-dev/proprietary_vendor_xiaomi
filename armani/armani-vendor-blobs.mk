@@ -233,7 +233,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
 
-# Sensors (V6.7.1.0)
+# Sensors
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/xiaomi/armani/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
