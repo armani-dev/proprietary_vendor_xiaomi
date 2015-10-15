@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/armani/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
 
-# Camera (V6.7.1.0)
+# Camera (5.10.8 MIUI7)
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/xiaomi/armani/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
@@ -67,6 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libmmcamera_ov9760_eeprom.so:system/vendor/lib/libmmcamera_ov9760_eeprom.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libmmcamera_ov9760_q1v05a.so:system/vendor/lib/libmmcamera_ov9760_q1v05a.so \
