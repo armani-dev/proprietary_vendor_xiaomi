@@ -161,6 +161,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
