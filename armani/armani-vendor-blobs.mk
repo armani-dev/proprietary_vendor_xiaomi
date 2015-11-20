@@ -218,6 +218,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so
 
+# Quick Charge (V7.0.5.0)
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/armani/proprietary/bin/hvdcp:system/bin/hvdcp
+
 # Radio (ZTE Nubia Z7 Max)
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/netmgrd:system/bin/netmgrd \
