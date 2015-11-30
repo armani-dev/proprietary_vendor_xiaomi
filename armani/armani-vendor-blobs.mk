@@ -183,11 +183,7 @@ PRODUCT_COPY_FILES += \
 
 # Media (V7.0.5.0)
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
