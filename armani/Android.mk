@@ -20,7 +20,7 @@ ifeq ($(TARGET_DEVICE),armani)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
-LOCAL_SRC_FILES := proprietary/app/$(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := proprietary/app/$(LOCAL_MODULE)/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := platform
