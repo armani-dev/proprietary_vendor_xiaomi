@@ -135,14 +135,34 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
-# GPS (V7.0.5.0)
+# GPS (TheMuppets Motorola msm8226-common)
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+    vendor/xiaomi/armani/proprietary/bin/location-mq:system/bin/location-mq \
+    vendor/xiaomi/armani/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+    vendor/xiaomi/armani/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/xiaomi/armani/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/xiaomi/armani/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/xiaomi/armani/proprietary/etc/izat.conf:system/etc/izat.conf \
+    vendor/xiaomi/armani/proprietary/etc/quipc.conf:system/etc/quipc.conf \
+    vendor/xiaomi/armani/proprietary/etc/sap.conf:system/etc/sap.conf \
+    vendor/xiaomi/armani/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
+    vendor/xiaomi/armani/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/xiaomi/armani/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/xiaomi/armani/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so
+    vendor/xiaomi/armani/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so
 
 # Graphics (TheMuppets Motorola msm8226-common)
 PRODUCT_COPY_FILES += \

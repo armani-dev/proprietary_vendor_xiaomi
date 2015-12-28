@@ -19,6 +19,24 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),armani)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := com.qualcomm.location
+LOCAL_SRC_FILES := proprietary/app/$(LOCAL_MODULE)/$(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.qualcomm.services.location
+LOCAL_SRC_FILES := proprietary/app/$(LOCAL_MODULE)/$(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_SRC_FILES := proprietary/app/$(LOCAL_MODULE)/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
