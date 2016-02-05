@@ -234,6 +234,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/armani/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/xiaomi/armani/proprietary/bin/radish:system/bin/radish \
+    vendor/xiaomi/armani/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/xiaomi/armani/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/armani/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
