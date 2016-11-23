@@ -288,3 +288,5 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
     vendor/xiaomi/armani/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/xiaomi/armani/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so
+
+$(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)
